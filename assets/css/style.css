@@ -1,0 +1,50 @@
+/* mobile stups*/
+.bg-header {
+  background: #f72210;
+  color: white;
+  width: 100%;
+}
+
+.logo {
+  width: 145px;
+  height: 45px;
+  padding: 12px;
+}
+
+.first-button {
+  width: 92px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 12px;
+  background-color: #ffe400;
+  border: 0;
+}
+
+.h3 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+.h4 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.img-div {
+  position: relative;
+}
+
+.img-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 3px 10px;
+  color: red;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.text-black {
+  color: black;
+}
+.text-size {
+  font-size: 13px;
+}
