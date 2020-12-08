@@ -28,14 +28,12 @@ body {
   font-size: 18px;
   margin: 10px 0;
   line-height: 1em;
-  font-weight: bold;
 }
 .h3Top {
   font-size: 20px;
 }
 .h4 {
   font-size: 15px;
-  font-weight: bold;
 }
 
 .img-div {
@@ -53,11 +51,28 @@ body {
 }
 .black {
   color: black;
-  font-weight: bold;
 }
-.bold {
-  font-weight: bold;
+
+.bor-t {
+  border-top: 4px solid #d9d9d9;
+  border-bottom: 4px solid #d9d9d9;
 }
 .text-size {
   font-size: 13px;
+}
+
+.text-size-16 {
+  font-size: 16px;
+}
+
+.bg-span {
+  background-color: black;
+  font-size: 12px;
+  margin: -16.5px 0;
+  z-index: 10;
+}
+
+.line-heig {
+  line-height: 1em;
+  font-size: 15px;
 }
