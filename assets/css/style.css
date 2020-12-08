@@ -1,3 +1,7 @@
+body {
+  background-color: #f4f5f7;
+}
+
 /* mobile stups*/
 .bg-header {
   background: #f72210;
@@ -17,7 +21,6 @@
   font-weight: bold;
   padding: 3px 12px;
   background-color: #ffe400;
-  border: 0;
 }
 
 .h3 {
@@ -37,7 +40,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 3px 10px;
+  padding: 3px 12px;
   color: red;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.8);
