@@ -1,6 +1,7 @@
 body {
   background-color: #f4f5f7;
   font-family: "Roboto Condensed", sans-serif;
+
 }
 
 /* mobile stups*/
@@ -78,12 +79,13 @@ body {
   line-height: 1em;
   font-size: 15px;
 }
+.font-size-12 {
+  background-color: #c2d4d7;;
+}
 
 .negative-marg {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: 12px;
-  background-color: #c2d4d7;;
   margin-bottom: -5px;
 }
