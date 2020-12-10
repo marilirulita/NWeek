@@ -10,6 +10,28 @@ body {
   width: 100%;
 }
 
+/* colors */
+.txt-gray {
+  color: #03030366;
+}
+.txt-drgray {
+  color: #333333;
+}
+.txt-dargray {
+  color: #555555;
+}
+.txt-mrdargray {
+  color: #666666;
+}
+.txt-red {
+  color: #f72210;
+}
+.txt-blue {
+  color: #3581f4;
+}
+.bg-red {
+  background-color: #f72210;
+}
 .logo {
   width: 145px;
   height: 45px;
