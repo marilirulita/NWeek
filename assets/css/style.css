@@ -14,24 +14,31 @@ body {
 .txt-gray {
   color: #03030366;
 }
+
 .txt-drgray {
-  color: #333333;
+  color: #333;
 }
+
 .txt-dargray {
-  color: #555555;
+  color: #555;
 }
+
 .txt-mrdargray {
-  color: #666666;
+  color: #666;
 }
+
 .txt-red {
   color: #f72210;
 }
+
 .txt-blue {
   color: #3581f4;
 }
+
 .bg-red {
   background-color: #f72210;
 }
+
 .logo {
   width: 145px;
   height: 45px;
@@ -51,9 +58,11 @@ body {
   margin: 10px 0;
   line-height: 1em;
 }
+
 .h3Top {
   font-size: 20px;
 }
+
 .h4 {
   font-size: 15px;
 }
@@ -78,6 +87,7 @@ body {
   border-top: 4px solid #d9d9d9;
   border-bottom: 4px solid #d9d9d9;
 }
+
 .text-size {
   font-size: 13px;
 }
@@ -85,9 +95,11 @@ body {
 .text-size-12 {
   font-size: 12px;
 }
+
 .text-size-16 {
   font-size: 16px;
 }
+
 .text-size-14 {
   font-size: 14px;
 }
@@ -103,8 +115,9 @@ body {
   line-height: 1em;
   font-size: 15px;
 }
+
 .font-size-12 {
-  background-color: #c2d4d7;;
+  background-color: #c2d4d7;
 }
 
 .negative-marg {
