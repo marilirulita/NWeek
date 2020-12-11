@@ -11,13 +11,33 @@
   </head>
   <body>
 
-    <header>
+    <header class="hid-tab">
       <div class="d-flex align-items-center justify-content-between p-2 bg-header text-white fixed-top">
         <img class="logo p-1" src="./assets/img/nwlogo.png" alt="Logo">
-        <div class="mr-3 d-flex align-items-center">
-          <i class="fas fa-user mr-2"></i>
-          <button type="button" class="btn rounded-pill mr-2 first-button text-size-12 font-weight-bold py-1 px-2" name="subscribe">SUBSCRIBE></button>
-          <i class="fas fa-bars"></i>
+        <div class="d-flex align-items-center">
+          <div class="hid-tab">
+            <i class="fas fa-user mr-2"></i>
+          </div>
+          <button type="button" class="btn rounded-pill first-button text-size-12 font-weight-bold py-0 px-2" name="subscribe">SUBSCRIBE></button>
+          <div class="px-2">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- header in tablet screen -->
+    <header class="hiden show-tab">
+      <div class="d-flex align-items-center justify-content-between bg-header text-white fixed-top">
+        <img class="logo py-1 px-2" src="./assets/img/nwlogo.png" alt="Logo">
+        <div class="d-flex align-items-center p-2">
+          <div class="hiden show-tab">
+            <p class="m-0 font-weight-bold mr-3">LOGIN</p>
+          </div>
+          <button type="button" class="btn rounded-pill first-button text-size-16 font-weight-bold py-0 px-2" name="subscribe">SUBSCRIBE></button>
+          <div class="px-2">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
       </div>
     </header>

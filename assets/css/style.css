@@ -6,6 +6,9 @@ body {
 .hiden {
   display: none;
 }
+.show {
+  display: block;
+}
 
 /* mobile stups */
 .bg-header {
@@ -48,7 +51,6 @@ body {
 }
 
 .first-button {
-  width: 92px;
   background-color: #ffe400;
 }
 
@@ -122,4 +124,15 @@ body {
 
 .image1 {
   margin-top: -210px;
+}
+
+/* Media queryes for tablet */
+@media screen and (min-width: 768px) {
+  .hid-tab {
+    display: none;
+  }
+
+  .show-tab {
+    display: inline-block;
+  }
 }
