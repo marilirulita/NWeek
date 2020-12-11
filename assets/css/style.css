@@ -3,6 +3,10 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.hiden {
+  display: none;
+}
+
 /* mobile stups */
 .bg-header {
   background: #f72210;
