@@ -6,7 +6,6 @@ body {
 /* mobile stups */
 .bg-header {
   background: #f72210;
-  color: white;
   width: 100%;
 }
 
@@ -40,31 +39,13 @@ body {
 }
 
 .logo {
-  width: 145px;
-  height: 45px;
-  padding: 12px;
+  width: 135px;
+  height: 35px;
 }
 
 .first-button {
   width: 92px;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 3px 12px;
   background-color: #ffe400;
-}
-
-.h3 {
-  font-size: 18px;
-  margin: 10px 0;
-  line-height: 1em;
-}
-
-.h3Top {
-  font-size: 20px;
-}
-
-.h4 {
-  font-size: 15px;
 }
 
 .img-div {
@@ -75,7 +56,6 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-weight: bold;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -88,20 +68,33 @@ body {
   border-bottom: 4px solid #d9d9d9;
 }
 
+.text-size-12 {
+  font-size: 12px;
+}
+
 .text-size {
   font-size: 13px;
 }
 
-.text-size-12 {
-  font-size: 12px;
+.text-size-14 {
+  font-size: 14px;
+}
+
+.h4 {
+  font-size: 15px;
 }
 
 .text-size-16 {
   font-size: 16px;
 }
 
-.text-size-14 {
-  font-size: 14px;
+.h3 {
+  font-size: 18px;
+  line-height: 1em;
+}
+
+.h3Top {
+  font-size: 20px;
 }
 
 .bg-span {
@@ -114,10 +107,6 @@ body {
 .line-heig {
   line-height: 1em;
   font-size: 15px;
-}
-
-.font-size-12 {
-  background-color: #c2d4d7;
 }
 
 .negative-marg {
