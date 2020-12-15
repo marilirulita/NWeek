@@ -122,8 +122,24 @@ body {
   margin-bottom: -5px;
 }
 
+.img-div-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: "260px";
+  height: "241px";
+}
+
 .image1 {
-  margin-top: -210px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  top: 40px;
+  left: 100px;
 }
 
 /* Media queryes for tablet */
