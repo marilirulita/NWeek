@@ -120,6 +120,7 @@ body {
   bottom: 0;
   left: 0;
   margin-bottom: -5px;
+  z-index: 10;
 }
 
 .img-div-1 {
