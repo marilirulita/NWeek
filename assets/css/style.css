@@ -133,16 +133,8 @@ body {
 
 .image1 {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
-  margin-left: 25px;
-}
-
-.image2 {
-  position: absolute;
-  left: 50px;
-  top: 10px;
-  margin-left: 60px;
 }
 
 /* code for tablets*/
@@ -152,20 +144,22 @@ body {
 }
 
 .bck-img {
-  background-image: url("./assets/img/new-img-lett.png");
+  background-image: url("./eclipse.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 768px) {
-  .text-size-14,
   .txt-14 {
     font-size: 18px;
   }
 
-  .h3 {
+  .txt-h3 {
     font-size: 22px;
   }
 
-  .text-size {
+  .txt-size {
     font-size: 15px;
   }
 
