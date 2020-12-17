@@ -133,15 +133,15 @@ body {
 
 .image1 {
   position: absolute;
-  left: -50px;
+  left: 0;
   top: 0;
   margin-left: 25px;
 }
 
 .image2 {
   position: absolute;
-  left: -30px;
-  top: 8px;
+  left: 50px;
+  top: 10px;
   margin-left: 60px;
 }
 
@@ -163,6 +163,10 @@ body {
 
   .text-size {
     font-size: 15px;
+  }
+
+  .text-left {
+    text-align: left;
   }
 
   .display {
