@@ -151,6 +151,10 @@ body {
   display: none;
 }
 
+.bck-img {
+  background-image: url("./assets/img/new-img-lett.png");
+}
+
 @media screen and (min-width: 768px) {
   .text-size-14,
   .txt-14 {

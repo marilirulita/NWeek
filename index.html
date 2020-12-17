@@ -1487,11 +1487,11 @@
             <div class="">
               <img src="./assets/img/subs-img.png" alt="">
             </div>
-            <div class="pl-5">
+            <div class="pl-md-5">
               <h5><a href="#" class="black font-weight-bold h3">In-depth Stories You Don't See Elsewhere About Topics
                  You Want to Read!</a></h5>
               <p>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
-              <button type="button" name="button" class="btn bg-red text-white font-weight-bold">SUBSCRIBE</button>
+              <button type="button" name="button" class="btn bg-red text-white font-weight-bold">SUBSCRIBE > </button>
             </div>
           </article>
 
@@ -1503,16 +1503,27 @@
           <article class="card text-center pb-2">
             <div class="d-md-flex align-items-center">
               <div class="w-md-50">
-                <img src="./assets/img/new-img-lett.png" alt="" class="img-fluid" height="170">
+                <img src="./assets/img/new-img-lett.png" alt="" class="img-fluid">
               </div>
               <div class="w-md-50">
                 <div class="card-body">
                   <h5 class="card-title"><a href="#" class="black font-weight-bold card-link h3">THE STARTING 5</a></h5>
                   <p class="card-text text-size-14">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-                  <form class="input-group" action="index.html" method="post">
+                  <form class="input-group d-lg-none" action="index.html" method="post">
                     <input type="text" name="email" placeholder="Email Address" class="form-control text-size">
                     <input type="button" name="SUBSCRIBE" value="Free sign up >" class="btn bg-red text-white form-control
                     text-size font-weight-bold text-uppercase">
+                  </form>
+
+                  <form class="d-none d-lg-block" action="index.html" method="post">
+                    <div class="form-group">
+                      <input type="text" name="email" placeholder="Email Address" class=" text-size form-control">
+                    </div>
+                    <div class="form-group">
+                      <input type="button" name="SUBSCRIBE" value="Free sign up >" class="btn bg-red text-white
+                      form-control text-size font-weight-bold text-uppercase">
+                    </div>
+
                   </form>
                 </div>
               </div>
@@ -1529,10 +1540,10 @@
     <footer class="bg-white container-fluid">
       <h3 class="hiden">footer section</h3>
       <div class="d-flex flex-column">
-        <div class="border-bottom py-2">
-          <div class="pt-3">
+        <div class="border-bottom py-2 d-md-flex align-items-baseline justify-content-between">
+          <div class="pt-3 d-md-flex align-items-baseline">
             <img src="./assets/img/logo-footer.png" alt="logo" width="250">
-            <h6 class="my-1 text-size-12 txt-mrdargray">© 2020 NEWSWEEK DIGITAL LLC</h6>
+            <h6 class="ml-md-2 my-1 text-size-12 txt-mrdargray">© 2020 NEWSWEEK DIGITAL LLC</h6>
           </div>
           <div class="txt-mrdargray" style="font-size: 1.7em">
             <i class="fab fa-facebook-square"></i>
