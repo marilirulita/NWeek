@@ -132,15 +132,17 @@ body {
 }
 
 .image1 {
-  position: relative;
+  position: absolute;
+  left: -50px;
   top: 0;
-  left: 0;
+  margin-left: 25px;
 }
 
 .image2 {
   position: absolute;
-  top: 40px;
-  left: 100px;
+  left: -30px;
+  top: 8px;
+  margin-left: 60px;
 }
 
 /* code for tablets*/
@@ -150,13 +152,23 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .text-size-14,
+  .txt-14 {
+    font-size: 18px;
+  }
+
+  .h3 {
+    font-size: 22px;
+  }
+
+  .text-size {
+    font-size: 15px;
+  }
+
   .display {
     display: initial;
   }
-}
 
-/* Media queryes for tablet */
-@media screen and (min-width: 768px) {
   .hid-tab {
     display: none;
   }
