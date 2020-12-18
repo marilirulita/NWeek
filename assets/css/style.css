@@ -179,3 +179,8 @@ body {
     display: inline-block;
   }
 }
+@media screen and (min-width: 1024px) {
+  .show-tab-lg {
+    display: inline-block;
+  }
+}
