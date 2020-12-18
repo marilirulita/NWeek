@@ -4,11 +4,11 @@
 This project aims to create a Clone of the page NewWeeks.com, The page works best on a all resolutions and using the Chrome browser.
 
 
-![Mobile screenshot](./assets/ScreenShot.png)
+![Mobile screenshot](./assets/img/mob-screen.png)
 
-![Tablet screenshot](./assets/ScreenShot.png)
+![Tablet screenshot](./assets/img/tablet-screen.png)
 
-![Desktop screenshot](./assets/ScreenShot.png)
+![Desktop screenshot](./assets/img/desktop-screen.png)
 
 ## Built With
 
