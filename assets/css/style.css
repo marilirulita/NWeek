@@ -10,15 +10,22 @@ body {
   display: block;
 }
 
+.nav-lnk:hover {
+  color: red;
+  text-decoration: none;
+}
 /* mobile stups */
 .bg-header {
   background: #f72210;
-  width: 100%;
 }
 
 /* colors */
 .txt-gray {
   color: #03030366;
+}
+
+.txt-md-gray {
+  color: #807f84;
 }
 
 .txt-drgray {
