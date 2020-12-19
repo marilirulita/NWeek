@@ -176,6 +176,11 @@ a.txt-mrdargray:hover {
   background-position: center;
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 481px) {
+  .img-med-size {
+    width: 45%;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .txt-14 {
@@ -205,4 +210,9 @@ a.txt-mrdargray:hover {
   .show-tab {
     display: inline-block;
   }
+
+  .img-med-size {
+    width: 120px;
+  }
+
 }
