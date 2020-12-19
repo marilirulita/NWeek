@@ -36,7 +36,7 @@ This project aims to create a Clone of the page NewWeeks.com, The page works bes
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/marilirulita/The-Next-Web-Clone/issues).
+Feel free to check the [issues page](https://github.com/marilirulita/NWeek/issues).
 
 ## Show your support
 

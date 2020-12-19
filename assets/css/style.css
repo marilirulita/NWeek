@@ -2,6 +2,17 @@ body {
   background-color: #f4f5f7;
   font-family: "Roboto Condensed", sans-serif;
 }
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+body li {
+  list-style: none;
+}
 
 .hiden {
   display: none;
@@ -40,6 +51,10 @@ body {
 
 .txt-mrdargray {
   color: #666;
+}
+
+a.txt-mrdargray:hover {
+  color: #000;
 }
 
 .txt-red {
