@@ -153,6 +153,18 @@ a.txt-mrdargray:hover {
   top: 0;
 }
 
+.txt-size-em {
+  font-size: 1.7em;
+}
+
+.bg-color-a {
+  background-color: #c2d4d7;
+}
+
+.bg-col-div {
+  background-color: #f4f5f7;
+}
+
 /* code for tablets */
 .display {
   display: none;
