@@ -170,11 +170,20 @@ a.txt-mrdargray:hover {
   display: none;
 }
 
-.bck-img {
-  background-image: url("./eclipse.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.img-bg-2 {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?") center center / cover no-repeat;
+}
+
+.fl-d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wid {
+  width: 100%;
+}
+
 }
 @media screen and (min-width: 481px) {
   .img-med-size {
@@ -215,4 +224,26 @@ a.txt-mrdargray:hover {
     width: 120px;
   }
 
+  .fl-d {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .wid {
+    width: 50%;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  .hei {
+    height: 335px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hei {
+    height: 320px;
+  }
 }
