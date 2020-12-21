@@ -2,6 +2,7 @@ body {
   background-color: #f4f5f7;
   font-family: "Roboto Condensed", sans-serif;
 }
+
 body a {
   text-decoration: none;
 }
@@ -27,7 +28,6 @@ body li {
   text-decoration: none;
 }
 
-/* mobile stups */
 .bg-header {
   background: #f72210;
 }
@@ -170,10 +170,6 @@ a.txt-mrdargray:hover {
   display: none;
 }
 
-.img-bg-2 {
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?") center center / cover no-repeat;
-}
-
 .fl-d {
   display: flex;
   flex-direction: column;
@@ -184,7 +180,6 @@ a.txt-mrdargray:hover {
   width: 100%;
 }
 
-}
 @media screen and (min-width: 481px) {
   .img-med-size {
     width: 45%;
@@ -234,7 +229,6 @@ a.txt-mrdargray:hover {
     width: 50%;
   }
 }
-
 
 @media screen and (min-width: 992px) {
   .hei {
